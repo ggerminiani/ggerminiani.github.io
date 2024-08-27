@@ -1,0 +1,64 @@
+* {
+    text-align: justify;
+}
+
+body {
+    padding: 20px 50px;
+    background: rgb(237, 237, 255);
+    background: linear-gradient(180deg, rgba(237, 237, 255, 1) 9%, rgba(136, 151, 154, 1) 100%);
+
+}
+
+.header {
+    background: rgb(7, 3, 80);
+    background: linear-gradient(90deg, rgba(7, 3, 80, 1) 12%, rgba(9, 9, 121, 1) 48%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.deco {
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+#carousel__container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+
+p {
+    text-indent: 50px;
+}
+
+p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+}
+
+#carousel__pics {
+    width: 70%;
+}
+
+ul li {
+    margin-top: 1.2rem;
+}
+
+.carousel-caption {
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    ;
+}
+
+.first{
+    margin-top: 30px;
+}
